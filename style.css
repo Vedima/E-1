@@ -1,0 +1,49 @@
+.navigation{
+    display: flex;         
+    background-color: black;
+    color: white;    
+}
+
+/* Обработка заголовка*/
+.navigation h1 {
+    margin-right: auto;
+    margin-left: 20px;    
+} 
+
+/* Обработка ссылок */
+.navigation a{
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;    
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+} 
+ /* Обработка ссылок при наведении курсора */
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+/* Задаём ширину таблицы */
+table {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-color: beige;
+}
+
+/* Делаем выравнивание текста и задаем размер шрифта */
+.content {
+    font-size: 30px;
+    text-align: left;
+}
+
+.contacts {
+    text-align: center;
+}
+
+
